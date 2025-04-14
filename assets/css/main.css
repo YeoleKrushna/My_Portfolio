@@ -693,6 +693,9 @@ section,
   z-index: 0;
 }
 
+
+
+
 .portrait-container {
   position: absolute;
   bottom: 0;
@@ -715,6 +718,10 @@ section,
   transition: filter 0.3s ease; /* Smooth transition for the shadow effect */
   animation: floatUpDown 4s ease-in-out infinite;
 }
+
+
+
+
 
 .portrait-image:hover {
   filter: drop-shadow(0 0 3px #e1fdee) drop-shadow(0 0 5px #18d26e); /* Shadow visible on hover */
@@ -1735,3 +1742,30 @@ section,
 
 
 
+@media screen and (max-width:600px) {
+  .portrait-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 1%;
+    height: 90vh;
+    width: 150vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    z-index: 0;
+
+    transform: translateX(40%);
+  }
+  
+  .portrait-image {
+    height: 100vh;
+    object-fit: contain;
+
+    /* Remove pointer-events: none to allow hover */
+    pointer-events: auto;
+    filter: drop-shadow(0 0 5px transparent) drop-shadow(0 0 10px transparent);
+    transition: filter 0.3s ease; /* Smooth transition for the shadow effect */
+    animation: floatUpDown 4s ease-in-out infinite;
+  }
+}
