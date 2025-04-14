@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home -->
   <url>
     <loc>https://yeole.in/</loc>
+    <priority>1.0</priority>
   </url>
+
+  <!-- About Page -->
   <url>
-    <loc>https://yeole.in/about.html</loc>
+    <loc>https://yeole.in/about</loc>
+    <priority>0.9</priority>
   </url>
+
+  <!-- Resume Page -->
   <url>
-    <loc>https://yeole.in/resume.html</loc>
+    <loc>https://yeole.in/resume</loc>
+    <priority>0.9</priority>
   </url>
+
+  <!-- Projects Page -->
   <url>
-    <loc>https://yeole.in/home</loc>
+    <loc>https://yeole.in/projects</loc>
+    <priority>0.8</priority>
   </url>
+
+  <!-- Blog Page -->
   <url>
-    <loc>https://yeole.in/blog.html</loc>
+    <loc>https://yeole.in/blog</loc>
+    <priority>0.7</priority>
   </url>
+
+  <!-- Contact Page -->
   <url>
-    <loc>https://yeole.in/contact.html</loc>
-  </url>
-  <url>
-    <loc>https://yeole.in/projects.html</loc>
+    <loc>https://yeole.in/contact</loc>
+    <priority>0.8</priority>
   </url>
 </urlset>
