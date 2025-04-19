@@ -2,37 +2,37 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Home -->
   <url>
-    <loc>https://yeole.in/</loc>
+    <loc>https://krushnayeole.site/</loc>
     <priority>1.0</priority>
   </url>
 
   <!-- About Page -->
   <url>
-    <loc>https://yeole.in/about</loc>
+    <loc>https://krushnayeole.site/about</loc>
     <priority>0.9</priority>
   </url>
 
   <!-- Resume Page -->
   <url>
-    <loc>https://yeole.in/resume</loc>
+    <loc>https://krushnayeole.site/resume</loc>
     <priority>0.9</priority>
   </url>
 
   <!-- Projects Page -->
   <url>
-    <loc>https://yeole.in/projects</loc>
+    <loc>https://krushnayeole.site/projects</loc>
     <priority>0.8</priority>
   </url>
 
   <!-- Blog Page -->
   <url>
-    <loc>https://yeole.in/blog</loc>
+    <loc>https://krushnayeole.site/blog</loc>
     <priority>0.7</priority>
   </url>
 
   <!-- Contact Page -->
   <url>
-    <loc>https://yeole.in/contact</loc>
+    <loc>https://krushnayeole.site/contact</loc>
     <priority>0.8</priority>
   </url>
 </urlset>
